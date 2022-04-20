@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 12</title>
+  <style>
+    body{
+      padding-bottom: 1000px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .flex-div1{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+      
+    }
+
+    .flex-div2{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+
+    }
+    .flex-div3{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+      justify-content: space-between;
+    }
+
+    .flex-div4{
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+      border: solid 1px gray;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .flex-exer-1{
+      margin-top: 20px;
+      width: 350px;
+      padding: 5px;
+      border: solid 1px gray;
+      border-radius: 10px;
+    }
+    .flex-exercise-1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-family: Arial, Helvetica, sans-serif;
+      align-items: center;
+      padding: 8px;
+      
+    }
+    .div12g{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+    .left-div12{
+      width: 100px;
+    }
+    .middle-div12{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      flex: 1;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .right-div12{
+      width: 70px;
+    }
+
+    .div13f{
+      display: flex;
+      flex-direction: row;
+      height: 70px;
+      background-color: blueviolet;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .left-div{
+      color: white;
+      font-weight: bold;
+      padding-left: 15px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="flex-div1">
+    <div style="background-color: lightblue; width: 200px;">200px</div>
+    <div style="background-color: lightpink; width: 75px;">75px</div>
+  </div>
+
+  <div class="flex-div2">
+    <div style="background-color: lightblue;width: 50px;">item1</div>
+    <div style="background-color: lightpink;flex: 1;">item2</div>
+    <div style="background-color: lightblue;width: 75px;">item3</div>
+  </div>
+
+  <div class="flex-div3">
+    <div style="background-color: lightpink;">item1</div>
+    <div style="background-color: lightpink;">item2</div>
+    <div style="background-color: lightpink;">item3</div>
+    <div style="background-color: lightpink;">item4</div>
+  </div>
+
+  <div class="flex-div4">
+    <div style="background-color: lightpink;">item1</div>
+    <div style="background-color: lightpink;">item2</div>
+  </div>
+
+  <div class="flex-exer-1">
+    <div class="flex-exercise-1">
+      Home
+      <button style="background-color: rgb(78, 78, 243); border: none; padding: 5px 13px 5px 13px; border-radius: 15px; color: white;font-weight: bold;">
+        14
+      </button>
+    </div>
+    <div class="flex-exercise-1">
+      Notifications
+      <button style="background-color: rgb(78, 78, 243); border: none; padding: 5px 13px 5px 13px; border-radius: 15px; color: white;font-weight: bold;">
+        3
+      </button>
+    </div>
+    <div class="flex-exercise-1">
+      Messages
+      <button style="background-color: rgb(78, 78, 243); border: none; padding: 5px 13px 5px 13px; border-radius: 15px; color: white;font-weight: bold;">
+        5
+      </button>
+    </div>
+  </div>
+
+  <div class="div12g">
+    <div class="left-div12">
+      <img src="/img/12345.jpg" style="width: 80px; height: 80px; border-radius: 50px;">
+    </div>
+    <div class="middle-div12">
+      <div style="font-weight: bold;">oliver</div>
+      <div style="color:gray;">thecat</div>
+      <div style="color:gray;">popular</div>
+    </div>
+    <div class="right-div12">
+      <button style="border: none; background-color: rgb(67, 175, 247); padding: 10px 15px 10px 15px; border-radius: 7px; color: white; font-weight: bold;">Follow</button>
+    </div>
+  </div>
+  <div class="div12g">
+    <div class="left-div12">
+      <img src="/img/12345.jpg" style="width: 80px; height: 80px; border-radius: 50px;">
+    </div>
+    <div class="middle-div12">
+      <div style="font-weight: bold;">oliver</div>
+      <div style="color:gray;">thecat</div>
+      <div style="color:gray;">popular</div>
+    </div>
+    <div class="right-div12">
+      <button style="border: none; background-color: rgb(67, 175, 247); padding: 10px 15px 10px 15px; border-radius: 7px; color: white; font-weight: bold;">Follow</button>
+    </div>
+  </div>
+  <div class="div12g">
+    <div class="left-div12">
+      <img src="/img/12345.jpg" style="width: 80px; height: 80px; border-radius: 50px;">
+    </div>
+    <div class="middle-div12">
+      <div style="font-weight: bold;">oliver</div>
+      <div style="color:gray;">thecat</div>
+      <div style="color:gray;">popular</div>
+    </div>
+    <div class="right-div12">
+      <button style="border: none; background-color: rgb(67, 175, 247); padding: 10px 15px 10px 15px; border-radius: 7px; color: white; font-weight: bold;">Follow</button>
+    </div>
+  </div>
+
+  <div class="div13f">
+    <div class="left-div">
+      Home
+    </div>
+    <div class="middle-div">
+      <input type="text" placeholder="Search" style="width: 500px; height: 30px; border-radius: 15px; padding: 2px 15px 2px 15px; border: none;">
+    </div>
+    <div class="right-div">
+      <button style="padding: 10px 10px 10px 10px; border: solid 1px white; background-color: blueviolet; color: white; margin-right: 10px;">Download</button>
+    </div>
+  </div>
+
+
+</body>
+</html>

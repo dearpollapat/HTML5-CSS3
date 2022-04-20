@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lession Extra</title>
+  <style>
+    button{
+      position: relative;
+      border: none;
+      transition: .4s ease-in;
+      z-index: 1;
+    }
+    button::before,
+    button::after{
+      position: absolute;
+      content: "";
+      z-index: -1;
+    }
+    .btn-1:hover{
+      box-shadow: inset -10.5em 0 0 0 #ff96ad,inset 10.5em 0 0 0 #ff96ad;
+    }
+    .btn-1:hover::after{
+      width: 100%;
+    }
+    .btn-3:hover{
+      background: #ff96ad;
+      box-shadow: 0 0 5px #ff96ad,0 0 25px #ff96ad, 0 0 50px #ff96ad,0 0 200px #ff96ad;
+    }
+    .btn-4:hover{
+      box-shadow: 6px 6px 0px #ff96ad;
+      top: -3px;
+      left: -3px;
+    }
+    .btn-5::after{
+      height: 100%;
+      left: -35%;
+      top: 0;
+      transform: skew(50deg);
+      transition-duration: 0.6s;
+      transform-origin: top left;
+      width: 0;
+    }
+    .btn-5:hover:after{
+      height: 100%;
+      width: 135%;
+    }
+    .btn-7:hover{
+      border: 2px solid #ff96ad;
+      color: #ff96ad;
+      background-color: #17181c;
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    <!-- Door Effect-->
+    <button class="btn-1">Button 1</button>
+    <button class="btn-2">Button 2</button>
+    <!-- Glow Effect-->
+    <button class="btn-3">Button 3</button>
+    <!-- Double Effect-->
+    <button class="btn-4">Button 4</button>
+    <!-- Shine Effect-->
+    <button class="btn-5">Button 5</button>
+    <button class="btn-6">Button 6</button>
+    <button class="btn-7">Button 7</button>
+    <button class="btn-8">Button 8</button>
+  </div>
+</body>
+</html>
